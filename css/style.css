@@ -54,7 +54,7 @@ h1{
     justify-content: center;
     align-items: center;
 }
-#messageInp{
+#msgInp{
     width: 80%;
     border: 2px solid black;
     border-radius: 6px;
