@@ -6,7 +6,7 @@ const messageInput = document.getElementById('messageInp')
 const messageContainer = document.querySelector(".container")
 
 // Audio that will play on receiving messages
-var audio = new Audio('ting.mp3');
+var audio = new Audio('ring.mp3');
 
 // Function which will append event info to the container
 const append = (message, position)=>{
@@ -43,7 +43,7 @@ socket.on('left', name =>{
 // If the form gets submitted, send server the message
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    const message = messageInput.value;
+    const message = messageInp.value;
     append(`You: ${message}`, 'right');
     socket.emit('send', message);
     messageInput.value = ''

@@ -3,6 +3,7 @@ body{
     background-image: linear-gradient(rgb(255, 255, 255), rgba(2, 147, 33, 0.853));
 }
 
+
 .logo{
     display: block;
     margin: auto;
@@ -16,7 +17,7 @@ h1{
     text-align: center;
 }
 .container{
-    max-width: 955px;
+    max-width: 500px;
     border: 2px solid black;
     border-radius: 13px;
     margin: auto;
@@ -48,13 +49,13 @@ h1{
     display:block;
     margin: auto;
     text-align: center;
-    max-width: 1085px;
-    width: 100%;
+    max-width: 500px;
+    /* width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#msgInp{
+#messageInp{
     width: 80%;
     border: 2px solid black;
     border-radius: 6px;
